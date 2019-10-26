@@ -15,7 +15,6 @@ class CashRegister
     @total =+ (price * quantity)
     quantity.times{@item << title}
     @last_transaction_amt = (price*quantity)
-    
   end
   
 end
