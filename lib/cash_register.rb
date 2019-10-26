@@ -26,4 +26,8 @@ class CashRegister
     end
   end
   
+  def items
+    puts @item
+  end
+  
 end
